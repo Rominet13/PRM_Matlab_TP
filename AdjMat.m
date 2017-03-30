@@ -1,5 +1,6 @@
 function [] = AdjMat()
-%Remplit la matrice d'adjacence
+% Remplit la matrice d'adjacence
+% Regarde les k plus proches voisins d'un point de nodeInfo (les trouve avec knnsearch), utilise localPlaner pour vérifier si les 2 noeud sont joingnable en ligne droite. 
 global nodeInfo
 global N
 global k

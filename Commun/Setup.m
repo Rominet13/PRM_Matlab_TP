@@ -1,11 +1,7 @@
 % Fichier principal à appeler pour l'initialisation
 
-clear all;
-close all;
-
-globaleVariables;
-
-%Création des positions initiales et finales des robots
-CreateNodeInfo();
-
-%drawExemple(nodeInfo(1,:))
+%Création des positions initiales et finales des robots (ligne 1 et 2, puis
+%tous les autres points du graphs
+CreateNodeInfo(); 
+%Remplit la matrice d'adjacence
+AdjMat(); 
